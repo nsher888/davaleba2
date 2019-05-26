@@ -1,0 +1,45 @@
+img{
+	width: 100px;
+	margin-left: 40px;
+}
+img.computer{
+	width: 1170px;
+	height: 460px;
+	
+}
+img.youtube{
+	width: 25px;
+	margin-left: 110px;
+}
+img.fb{
+	width: 14px;
+	margin-left: 40px;
+}
+ul{
+	list-style: none;
+	font-family: 'bpg_nino_mtavruli_normal';
+}
+a{
+	color: #3D58A6;
+	font-size: 22px;
+	text-decoration: none;
+}
+a.mtavari{
+	color: #EE4036;
+}
+@font-face{
+	font-family: 'bpg_nino_mtavruli_normal';
+	src: url('bpg_nino_mtavruli_normal.otf')
+}
+.box.blue {
+  height: 26px;
+  width: 1px;
+  background-color: #3D58A6;
+  margin-left: 80px;
+}
+a.siaxleebi{
+	color: #3D58A6;
+}
+p.date{
+	font-family: 'bpg_nino_mtavruli_normal';
+}

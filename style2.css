@@ -1,0 +1,53 @@
+@font-face{
+	font-family: 'bpg_nino_mtavruli_normal';
+	src: url('bpg_nino_mtavruli_normal.otf')
+}
+@font-face{
+	font-family: 'bpg_ingiri_arial';
+	src: url('bpg_ingiri_arial.ttf')
+}
+ul{
+	list-style: none;
+	font-family: 'bpg_nino_mtavruli_normal';
+}
+a{
+	color: #3D58A6;
+	font-size: 22px;
+	text-decoration: none;
+}
+a.siaxleebi{
+	color: #EE4036;
+}
+img{
+	width: 100px;
+	margin-left: 40px;
+}
+div.date{
+	background-color: #3D58A6;
+	width: 56px;
+	font-size: 48px;
+	font-family: 'bpg_nino_mtavruli_normal';
+	text-align: center;
+	display: inline-block;
+	margin-left: 40px;
+}
+span.date1{
+	color: white;
+}
+p{
+	font-family: 'bpg_nino_mtavruli_normal';
+	font-size: 22px;
+	margin-left: 40px;
+
+}
+p.satauri{
+	font-family: 'bpg_nino_mtavruli_normal';
+	font-size: 20px;
+}
+img.statia{
+	width: 270px;
+}
+p.statia{
+	font-family: 'bpg_ingiri_arial';
+	font-size: 16px;
+}
