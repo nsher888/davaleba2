@@ -40,6 +40,9 @@ p{
 	margin-left: 40px;
 
 }
+p.date{
+	color: #3D58A6;
+}
 p.satauri{
 	font-family: 'bpg_nino_mtavruli_normal';
 	font-size: 20px;
