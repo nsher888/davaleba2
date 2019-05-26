@@ -2,10 +2,6 @@
 	font-family: 'bpg_nino_mtavruli_normal';
 	src: url('bpg_nino_mtavruli_normal.otf')
 }
-@font-face{
-	font-family: 'bpg_ingiri_arial';
-	src: url('bpg_ingiri_arial.ttf')
-}
 ul{
 	list-style: none;
 	font-family: 'bpg_nino_mtavruli_normal';
@@ -25,14 +21,18 @@ img{
 div.date{
 	background-color: #3D58A6;
 	width: 56px;
-	font-size: 48px;
-	font-family: 'bpg_nino_mtavruli_normal';
+	height: 56px;
 	text-align: center;
 	display: inline-block;
 	margin-left: 40px;
+	position: relative;
 }
 span.date1{
 	color: white;
+	position: relative;
+	font-size: 48px;
+	font-family: 'bpg_nino_mtavruli_normal';
+	line-height: 64px;
 }
 p{
 	font-family: 'bpg_nino_mtavruli_normal';
@@ -48,6 +48,6 @@ img.statia{
 	width: 270px;
 }
 p.statia{
-	font-family: 'bpg_ingiri_arial';
+	font-family: 'bpg_nino_mtavruli_normal';
 	font-size: 16px;
 }
