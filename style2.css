@@ -1,24 +1,33 @@
-@font-face{
+@font-face {
 	font-family: 'bpg_nino_mtavruli_normal';
 	src: url('bpg_nino_mtavruli_normal.otf')
 }
-ul{
+@font-face {
+	font-family: 'bpg_nino_mtavruli_bold';
+	src: url('bpg_nino_mtavruli_normal.otf')
+}
+
+ul {
 	list-style: none;
 	font-family: 'bpg_nino_mtavruli_normal';
 }
-a{
+
+a {
 	color: #3D58A6;
 	font-size: 22px;
 	text-decoration: none;
 }
-a.siaxleebi{
+
+a.siaxleebi {
 	color: #EE4036;
 }
-img{
+
+img {
 	width: 100px;
 	margin-left: 40px;
 }
-div.date{
+
+div.date {
 	background-color: #3D58A6;
 	width: 56px;
 	height: 56px;
@@ -27,30 +36,44 @@ div.date{
 	margin-left: 40px;
 	position: relative;
 }
-span.date1{
+
+span.date1 {
 	color: white;
 	position: relative;
 	font-size: 48px;
 	font-family: 'bpg_nino_mtavruli_normal';
 	line-height: 64px;
 }
-p{
+
+p {
 	font-family: 'bpg_nino_mtavruli_normal';
 	font-size: 22px;
 	margin-left: 40px;
 
 }
-p.date{
+
+p.date {
 	color: #3D58A6;
 }
-p.satauri{
+
+p.satauri {
 	font-family: 'bpg_nino_mtavruli_normal';
 	font-size: 20px;
 }
-img.statia{
+
+img.statia {
 	width: 270px;
 }
-p.statia{
+
+p.statia {
 	font-family: 'bpg_nino_mtavruli_normal';
 	font-size: 16px;
+}
+.qselebi{
+	display: inline-block;
+}
+.fb{
+	height: 30px;
+	padding-left: 10px;
+	font-size: 30px;
 }
